@@ -7,4 +7,4 @@ Hello everyone, I will be uploading my progress here from very basic. Each day I
 | Day | Topic | Folder | Code Link                                                      |
 | :--- | :--- | :--- |:---------------------------------------------------------------|
 | 01 | Find Maximum Element | [ARRAY](./src/ARRAY) | [01_FindMaxElements.java](./src/ARRAY/01_FindMaxElements.java) |
-| 02 | Find Minimum Element | [ARRAY](./src/ARRAY) | [02_FindMinimumElement.java](./src/ARRAY/02_FindMinElement.java)   |
+| 02 | Find Minimum Element | [ARRAY](./src/ARRAY) | [02_FindMinimumElement.java](./src/ARRAY/02_FindMinimumElement.java)   |
