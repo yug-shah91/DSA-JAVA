@@ -12,5 +12,7 @@ Hello everyone, I will be uploading my progress here from very basic. Each day I
  | 03  | Count Occurrences    | [ARRAY](./src/ARRAY) | [04_CountOccurrences.java](./src/ARRAY/04_CountOccurrences.java) |
 | 04  | Linear Search        | [ARRAY](./src/ARRAY) | [05_LinearSearch.java](./src/ARRAY/05_LinearSearch.java) |
 | 04  | Second Max           | [ARRAY](./src/ARRAY) | [06_SecondMax.java](./src/ARRAY/06_SecondMax.java) |
-|04 | Reverse Array        | [ARRAY](./src/ARRAY) | [07_ReverseArray.java](./src/ARRAY/07_ReverseArray.java) |
-|05 | Check Palindrome |[ARRAY](./src/ARRAY) | [08_CheckPalindrome.java](./src/ARRAAY/08_CheckPalindrome.java) |
+| 04  | Reverse Array        | [ARRAY](./src/ARRAY) | [07_ReverseArray.java](./src/ARRAY/07_ReverseArray.java) |
+| 05  | Check Palindrome     |[ARRAY](./src/ARRAY) | [08_CheckPalindrome.java](./src/ARRAAY/08_CheckPalindrome.java) |
+| 06  | PrefixSum            | [ARRAY](./src/ARRAY) | [09_PrefixSum.java](./src/ARRAY/09_PrefixSum.java) |
+| 06  | Sliding Window | [ARRAY](./src/ARRAY) | [10_SlidingWindow.java](./src/ARRAY/10_SlidingWindow.java) |
