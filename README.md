@@ -18,3 +18,4 @@ Hello everyone, I will be uploading my progress here from very basic. Each day I
 | 06 | Sliding Window | [ARRAY](./src/ARRAY) | [10_SlidingWindow.java](./src/ARRAY/10_SlidingWindow.java) |
 | 07 | MoveZeroes | [ARRAY](./src/ARRAY) | [11_MoveZeroes.java](./src/ARRAY/11_MoveZeroes.java) |
 | 07 | BinarySearch | [ARRAY](./src/ARRAY) | [12_BinarySearch.java](./src/ARRAY/12_BinarySearch.java) |
+|08 | Binary First Occurrence | [ARRAY](./src/ARRAY) | [13_BinaryFirstOccurrence.java](./src/ARRAY/13_BinaryFirstOccurrence.java)
