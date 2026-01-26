@@ -1,5 +1,7 @@
 package ARRAY;
-
+// Two pointers
+//First pass: move all useful elements forward
+//Second pass: clean up the rest
 class MoveZeroes {
     public static void main(String[] args) {
 
@@ -23,3 +25,7 @@ class MoveZeroes {
         }
     }
 }
+//We did not move zeroes
+//We moved non-zero elements forward
+//Time: O(n)
+//Space: O(1)
