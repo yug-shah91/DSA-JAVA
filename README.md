@@ -27,3 +27,5 @@ Hello everyone, I will be uploading my progress here from very basic. Each day I
 | 11  | Kandane algorithm             | [ARRAY](./src/ARRAY)   | [19_KadaneAlgo.java](./src/ARRAY/19_KadaneAlgo.java)                                 |
 | 12  | Insertion Sort                | [ARRAY](./src/ARRAY)   | [20_InsertionSort.java](./src/ARRAY/20_InsertionSort.java)                           |
 | 12  | Rotation of Array             | [ARRAY](./src/ARRAY)   | [21_RotationByK.java](./src/ARRAY/21_RotationByK.java)                               |
+| 13  | Majority element              | [ARRAY](./src/ARRAY) | [22_MajorityElement.java](./src/ARRAY/22_MajorityElement.java)                       |
+| 13  |
