@@ -1,5 +1,4 @@
 # DSA-JAVA
-
 Hello everyone, I will be uploading my progress here from very basic. Each day I will try to upload my progress for the next 4 months.
 
 ## 📅 Daily Progress Tracker
