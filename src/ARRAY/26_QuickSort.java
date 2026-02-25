@@ -28,21 +28,23 @@ class QuickSort {
 
     static int partition(int[] arr,int low, int high){
 
-        int pivit = arr[high];
-        int i = low;
+        int pivot = arr[high];  // Pick last element.
+        int i = low; // i marks next small position.
 
-        for (int j = low ; j<high ; j ++){
+        for (int j = low ; j<high ; j ++){ // Scan until element before pivot.
 
-            if (arr[j]<pivit){
+            // If element is smaller:
+            if (arr[j]<pivot){
 
                 int temp = arr[i];
                 arr[i] = arr[j];
                 arr[j] = temp;
 
-                i++;
+                i++; // Swap arr[i] and arr[j], then i++.
             }
         }
-
+        //After loop
+        //Swap pivot with arr[i].
         int temp = arr[i];
         arr[i] = arr[high];
         arr[high] = temp;
