@@ -30,3 +30,5 @@ Hello everyone, I will be uploading my progress here from very basic. Each day I
 | 13  | Missing Number                 | [ARRAY](./src/ARRAY)  | [23_MissingNumber.java](./src/ARRAY/23_MissingNumber.java)                           |
 | 13  | Two sum                        | [ARRAY](./src/ARRAY)  | [24_TwoSum.java](./src/ARRAY/24_TwoSum.java)                                         |
 | 14  | Merge Sort                     | [ARRAY](./src/ARRAY)  | [25_MergeSort.java](./src/ARRAY/25_MergeSort.java)                                   |
+| 15  |Quick Sort|[ARRAY](./src/ARRAY)|[26_QuickSort.java](./src/ARRAY/26_QuickSort.java) |
+| 16  |Count Vowels|[String](./src/String)|[01_CountVowels.java](./src/String/01_CountVowels.java)|
