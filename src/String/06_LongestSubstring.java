@@ -26,7 +26,7 @@ class LongestSubstring {
         }
         return max;
     }
-}
+}// time -- O(n)
 
 
 
