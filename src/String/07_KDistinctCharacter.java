@@ -1,6 +1,6 @@
 package String;
 
-public class KDistinctCharacter {
+class KDistinctCharacter {
     public static void main(String[] args) {
         String s = "aaaabbccd";
         System.out.println(maxLength(s));
@@ -14,25 +14,25 @@ public class KDistinctCharacter {
         int distinct = 0;
         int max = 0;
 
-        for (right = 0 ; right<s.length();right++){
+        for (right = 0 ; right<s.length();right++) {
             char c = s.charAt(right);
-            freq[c-'a']++;
+            freq[c - 'a']++;
 
-            if (freq[c-'a']==1){
+            if (freq[c - 'a'] == 1) {
                 distinct++;
             }
-        }
-        while (distinct>k){
-            char leftChar = s.charAt(left);
-            freq[leftChar-'a']--;
 
-            if (freq[leftChar-'a']==0){
-                distinct--;
+            while (distinct > k) {
+                char leftChar = s.charAt(left);
+                freq[leftChar - 'a']--;
+
+                if (freq[leftChar - 'a'] == 0) {
+                    distinct--;
+                }
+                left++;
             }
-            left++;
+            max = Math.max(max,right - left +1);
         }
-        max = Math.max(max,right - left +1);
-
         return max;
     }
 }
