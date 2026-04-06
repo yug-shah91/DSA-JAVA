@@ -1,7 +1,7 @@
 package LinkedList;
 
 // iteration method
-public class ReverseLL {
+class ReverseLL {
     Node head;
 
     private class Node{
@@ -18,16 +18,35 @@ public class ReverseLL {
     }
     public void reverse(){
 
+        if (head == null) return;
         Node prev = null;
         Node pres = head;
-        Node next = pres.next;
 
         while (pres!=null){
+            Node next = pres.next;
             pres.next = prev;
             prev = pres;
             pres = next;
-            if (next!=null) next = next.next;
+         //  if (next!=null) next = next.next;
         }
         head = prev;
     }
 }
+//  if(head == null){
+//        return head;
+//        }
+//
+//ListNode prev = null;
+//ListNode pres = head;
+//ListNode next = pres.next;
+//
+//        while(pres!=null){
+//pres.next = prev;
+//prev = pres;
+//pres = next;
+//            if(next!=null){
+//next = next.next;
+//            }
+//                    }
+//                    return prev;
+//    }
