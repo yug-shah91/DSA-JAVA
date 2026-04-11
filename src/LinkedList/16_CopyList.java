@@ -2,7 +2,7 @@ package LinkedList;
 
 import java.util.HashMap;
 
-public class CopyList {
+ class CopyList {
     class Node {
         int val;
         Node next;
