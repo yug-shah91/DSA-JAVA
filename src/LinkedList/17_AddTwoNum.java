@@ -18,7 +18,8 @@ class AddTwoNum {
 
             int sum  = carry; //Start with carry from previous step
 
-            if(l1!=null){ //Add digit 👉 Move pointer forward
+            if(l1!=null){
+                //Add digit 👉 Move pointer forward
                 sum += l1.val;
                 l1 = l1.next;
             }
