@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class RemoveNfromEnd {
+class RemoveNfromEnd {
       public class ListNode {
       int val;
       ListNode next;

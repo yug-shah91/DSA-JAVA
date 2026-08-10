@@ -21,13 +21,13 @@ class ReverseLL {
         if (head == null) return;
         Node prev = null;
         Node pres = head;
-
+        Node next = pres.next;
         while (pres!=null){
-            Node next = pres.next;
+
             pres.next = prev;
             prev = pres;
             pres = next;
-         //  if (next!=null) next = next.next;
+           if (next!=null) next = next.next;
         }
         head = prev;
     }
