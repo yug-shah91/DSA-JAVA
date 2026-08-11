@@ -22,7 +22,7 @@ class CheckIsomorphic {
             char c2 = s2.charAt(i);
 
             if (map1.containsKey(c1)) { // Have we seen this letter from s1 before?
-                if (map1.get(c1) != c2) { // If yes, does it map to the SAME letter in s2 as last time?
+                if (map1.get(c1) != c2) {// yaha meko map1.get c1 isliye hai ki mujhe c1 ki value milegi uski key nai to c1:a->b hai to meko b milega aur vo compare directly hoga c2 se jo b hoga agar me map2.getc2 likhta to vo galat ho jata fir apan ye compare kar rahe hote b!= a  // If yes, does it map to the SAME letter in s2 as last time?
                     return false;  // // If it maps to a different letter, break the rule and fail
                 }
             }else {
